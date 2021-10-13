@@ -1,0 +1,17 @@
+{
+  "npmClient": "yarn",
+  "command": {
+    "publish": {
+      "message": "keepkey(release): version %v",
+      "ignoreChanges": [
+        "**/*.md",
+        "**/lib/**"
+      ]
+    }
+  },
+  "packages": [
+    "modules/**/*"
+  ],
+  "version": "independent",
+  "useWorkspaces": true
+}
