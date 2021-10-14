@@ -1,6 +1,6 @@
 {
   "name": "@keepkey/keepkey-hardware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/index.js",
   "types": "./lib/main.d.ts",
   "scripts": {
@@ -12,8 +12,8 @@
     "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
   },
   "dependencies": {
-    "@pioneer-platform/loggerdog": "^8.1.17",
     "@keepkey/keepkey-coins": "latest",
+    "@pioneer-platform/loggerdog": "^8.1.17",
     "@shapeshiftoss/hdwallet-core": "latest",
     "@shapeshiftoss/hdwallet-keepkey-nodewebusb": "latest",
     "@shapeshiftoss/hdwallet-keepkey-tcp": "latest",
