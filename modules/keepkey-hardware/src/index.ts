@@ -31,7 +31,7 @@ let {
     getPaths,
     normalize_pubkeys,
     getNativeAssetForBlockchain
-} = require('@pioneer-platform/pioneer-coins')
+} = require('@keepkey/keepkey-coins')
 
 
 // import * as util from "./hardware"

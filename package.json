@@ -9,6 +9,7 @@
     "version": "independent"
   },
   "scripts": {
+    "make": "make",
     "clean": "make clean",
     "build": "lerna run build --include-dependencies",
     "refresh": "make clean && make",
