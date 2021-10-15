@@ -14,6 +14,7 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
+    "@babel/runtime": "^7.15.4",
     "@keepkey/keepkey-hardware": "^0.0.2",
     "@pioneer-platform/loggerdog": "^8.1.17",
     "express": "^4.17.1"
