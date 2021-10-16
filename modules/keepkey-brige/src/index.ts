@@ -49,6 +49,9 @@ module.exports = {
     startServer: function () {
         return start_server();
     },
+    allDevices: function () {
+        return Hardware.allDevices();
+    },
     startKeepkey: function () {
         return Hardware.start();
     },
