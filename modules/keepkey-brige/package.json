@@ -1,6 +1,6 @@
 {
   "name": "@keepkey/keepkey-bridge",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./lib/index.js",
   "types": "./lib/main.d.ts",
   "_moduleAliases": {
@@ -17,6 +17,8 @@
     "@babel/runtime": "^7.15.4",
     "@keepkey/keepkey-hardware": "^0.0.2",
     "@pioneer-platform/loggerdog": "^8.1.17",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   },
   "devDependencies": {
